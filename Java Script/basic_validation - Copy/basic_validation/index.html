@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BASIC VALIDATION</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,800;1,100;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <div id="container">
+        <form action="#">
+            <div id="inputs">
+                <h2>Enter Log in Details</h2>
+                <span id="error" class="error"></span> <!-- Fixed to have id 'error' -->
+                <br>
+                <input type="text" id="uName" name="uName" placeholder="Username">
+                <input type="password" id="pwd" name="pwd" placeholder="Password">
+                <input type="button" id="btn" value="LOG IN">
+            </div>
+        </form>
+    </div>
+    <script>
+        // Function to validate the user's login credentials
+        function validate() {
+            let userName = document.getElementById("uName"); // Retrieve the input field for the username
+            let pwd = document.getElementById("pwd"); // Retrieve the input field for the password
+
+            // Check whether the username or password fields are empty
+            if (userName.value === "" || pwd.value === "") {
+                let error = document.getElementById("error"); // Access the span element for displaying an error message
+                error.innerText = "The Fields can't be empty"; // Display an error if either field has been left blank
+            } 
+            // If both fields are filled, verify whether the username is 'admin' and the password is '123' (as a string)
+            else if (userName.value === "admin" && pwd.value === "123") {
+                window.location.href = "loggedIn.html"; // Redirect to 'loggedIn.html' if the credentials are correct
+            } 
+            // If the credentials are incorrect, redirect to the denied page
+            else {
+                window.location.href = "logInDenied.html"; // Redirect to 'logInDenied.html' if the credentials are incorrect
+            }
+        }
+
+        // Adding event listener to the button for validation
+        let logIn = document.getElementById("btn");
+        logIn.addEventListener("click", validate);
+    </script>
+</body>
+
+</html>

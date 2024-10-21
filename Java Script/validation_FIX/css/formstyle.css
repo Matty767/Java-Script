@@ -1,0 +1,152 @@
+body {
+    background-color: #ebebeb;
+
+}
+
+.container {
+    width: 75%;
+    height: 50vh;
+    margin: 5rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3b628b;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    font-family: 'poppins';
+    color: #ffffff;
+}
+
+input {
+    padding: .7rem;
+    margin: 0 0 0 0;
+    font-size: 1.2rem;
+    font-family: 'poppins';
+    border-radius: 5px;
+    outline: none;
+    border: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 5rem;
+    font-family: "Poppins";
+    letter-spacing: 1px;
+    color: #4182b4;
+}
+
+#submit {
+    width: 100%;
+    padding: 1rem;
+    font-family: 'poppins';
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    background-color: #97bde5;
+    color: #030303;
+    border: 0;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: #7b90a7;
+    color: #ffffff;
+}
+
+/******ERROR MESSAGES ******/
+
+#empty_msg, 
+.name_err,
+.addr_err,
+.email_err,
+.tel_err {
+    display:block;
+    height:20px;
+    padding: 5px 0 5px 0;
+    font-family: 'poppins';
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #ff0000
+    
+}
+#empty_msg{
+    color: #ff0000;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #ename,
+#eaddr,
+#eemail {
+    font-family: tahoma;
+    font-size: 13px;
+    color: red;
+}
+
+#wrapper {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input {
+    display: inline-block;
+    vertical-align: baseline;
+    width: 175px;
+    height: 30px;
+}
+
+input[type="submit"] {
+    color: blue;
+    width: 75px;
+    margin-left: 144px;
+}
+
+label {
+    display: inline-block;
+    width: 140px;
+    text-align: right;
+    color: #2D2D2D;
+    font-size: 15px;
+} */

@@ -1,0 +1,114 @@
+#container {
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'poppins';
+    font-size: 1.5rem;
+    font-weight: 300;
+    letter-spacing: px;
+    color: #232323;
+}
+
+label {
+    font-family: 'poppins';
+    font-size: 1.3rem;
+    color: rgb(233, 233, 233);
+}
+
+.output-text-top {
+    margin: 2rem;
+    font-size: 2rem;
+    color: rgb(48, 130, 181);
+}
+
+.format {
+    background-color: #d3e7fe;
+    width: 660px;
+    margin: 20px 0 20px 0;
+    padding: 20px;
+    font-family: 'poppins';
+    font-size: 1.3rem;
+    color: rgb(47, 47, 47);
+}
+
+.inpt {
+    width: 250px;
+    padding: 1.3rem;
+    font-size: 1.3rem;
+    color: rgb(47, 47, 47);
+    margin: 0px 0px 0px 10px;
+}
+
+.format_bg_menu {
+    background-color: #8fb5fc;
+    width: 400px;
+    padding: 20px;
+}
+
+.output-lang {
+    margin: 1.5rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: rgb(14, 90, 161);
+}
+
+#dropdown {
+    margin: 1rem;
+    padding: 1.3rem;
+    font-family: 'poppins';
+    font-size: 1.3rem;
+}
+
+.btns {
+    text-align: center;
+}
+
+.btn {
+    width: 200px;
+    padding: 1rem;
+    margin: 2rem;
+    font-family: 'poppins';
+    font-size: 1.2rem;
+    font-weight: 300;
+    letter-spacing: px;
+    background-color: #d3e7fe;
+    color: #232323;
+    border: 0;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #b2c3d6;
+}
+
+#section-one {
+    background-color: #114682;
+    width: 700px;
+    padding: 2rem;
+}
+
+#section-two {
+    background-color: #557aae;
+    width: 700px;
+    padding: 2rem;
+    margin-top: 20px;
+}
+
+#section-three {
+    background-color: #7b8694;
+    width: 700px;
+    padding: 2rem;
+    margin-top: 20px;
+}
+
+.radbtns>label {
+    cursor: pointer;
+    color: rgb(25, 184, 17);
+}
+input[type="radio"]{
+    cursor: pointer;
+}

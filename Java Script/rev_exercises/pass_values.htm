@@ -1,0 +1,72 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,800;1,100;1,900&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<title>PASSING VALUES</title>
+</head>
+
+<body>
+	<!-- First Exercise starts here-->
+	<div id="container">
+		<h1>EXERCISE 1</h1>
+		<div id="section-one">
+			<div class="format">
+				New User output is:<span class="output-text-top"></span>
+			</div>
+			<div>
+				<label for="userInput">User Input:</label>
+				<input type="text" id="userInput" class="inpt">
+				<div class="btns">
+					<input type="button" class="btn" value="Send to Output">
+					<input type="button" class="btn" value="Reset text">
+				</div>
+			</div>
+		</div>
+
+		<!-- Second Exercise starts here-->
+		<h1>EXERCISE 2</h1>
+		<div id="section-two">
+			<div class="format">
+				The value passed from the drop down is:<span class="output-lang"></span>
+			</div>
+			<div class="format_bg_menu">
+				<label for="dropdown">Select Value from Drop Down:</label>
+				<select name="drop" id="dropdown">
+					<option value="JavaScript">JavaScript</option>
+					<option value="JQuery">JQuery</option>
+					<option value="Ajax">Ajax</option>
+				</select>
+			</div>
+		</div>
+
+		<!-- Third Exercise starts here-->
+		<h1>EXERCISE 3</h1>
+		<div id="section-three">
+			<div class="format">
+				<h3>Select a Language</h3>
+				<section class="radbtns">
+					<label>
+						<input type="radio" name="lang" value="JavaScript">
+						JavaScript</label>
+					<label>
+						<input type="radio" name="lang" value="JQuery">
+						JQuery</label>
+					<label>
+						<input type="radio" name="lang" value="PHP">
+						PHP</label>
+				</section>
+				<h4>Your Language choice is:<span style="color:rgb(60, 155, 211)"> <b id="radio-output"></b></span></h4>
+			</div>
+		</div>
+	</div>
+	<!--END CONTAINER-->
+
+
+</body>
+
+</html>
